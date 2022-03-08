@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Andrew',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -53,21 +53,21 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'BYU IS',
+      icon: 'graduation-cap',
+      link: 'byuis.agilixbuzz.com',
     },
     {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'mail.google.com',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Music',
+      icon: 'headphones',
+      link: 'https://open.spotify.com',
     },
     {
       id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com',
     },
   ],
 
@@ -139,20 +139,20 @@ const CONFIG = {
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Liked',
+          link: 'https://open.spotify.com/collection/tracks',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Classical Focus',
+          link: 'https://open.spotify.com/playlist/37i9dQZF1DX17GkScaAekA',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Electronic Focus',
+          link: 'https://open.spotify.com/playlist/37i9dQZF1DX0wMD4IoQ5aJ',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Workout',
+          link: 'https://open.spotify.com/playlist/6Mv5XN0NrbtvTQ3WLphqIE',
         },
       ],
     },
